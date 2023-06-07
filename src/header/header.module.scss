@@ -1,0 +1,39 @@
+.heading {
+    width: 100%;
+    height: 80px;
+    background-color: #ED7200;
+    display: flex;
+    border-radius: 0 0 35px 35px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    margin-right: 200px;
+    list-style: none;
+    border: 1px solid transparent;
+    padding: 12px;
+
+}
+
+li:hover {
+    border: 1px solid #FFF6D4;
+    border-radius: 50%;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
